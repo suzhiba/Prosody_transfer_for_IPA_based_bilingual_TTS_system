@@ -1,26 +1,275 @@
-  
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>TimeLine</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body>
-		<div id="wrapper" class="divided">
-			<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
-				<div class="content">
-					<h1><a href="index.html">TimeLine</a></h1>
-					<p class="major">I am a senior student and the timeline is a Multi-function atlas <br>To retain our best time <br>author:<a href="https://uling1994.github.io/">Uling1994</a></p>
-					<ul class="actions vertical">
-						<li><a href="#first" class="button big wide smooth-scroll-middle">Join Us</a></li>
-					</ul>
-				</div>
-				<div class="image">
-					<img src="images/pic5.jpg" alt="" />
-				</div>
-			</section>
-		</div>
-	</body>
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <title>Prosody transfer for IPA based bilingual TTS system</title>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+</head>
+
+<body>
+    <p>Audio samples for our paper. ME means Mandarin speaker speak English, MM means Mandarin speaker speak Mandarin, and so on. </p>
+Tacotron CMU-ARPAbe+Pinyin VS Tacotron IPA, we train these model in full datasets. See section 3.3.1 in our paper.
+<table border="1" width="100%" style="font-size:16px">
+  <tr><th bgcolor="#3cb371" height="48"> Tacotron-CMU EE</th><th bgcolor="#3cb371"> Tacotron-CMU ME</th>
+    <th bgcolor="#3cb371"> Tacotron-IPA EE</th><th bgcolor="#3cb371"> Tacotron-IPA ME</th><th bgcolor="#3cb371"> GT E</th></tr>
+  <tr>
+    <td>
+    <audio controls preload="none" style="width: 200px"><source src="task1_english/cmu_ee/LJ010-0210.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+    <td>
+    <audio controls preload="none" style="width: 200px"> <source src="task1_english/cmu_me/LJ010-0210.wav" type="audio/mpeg">audio not supported</audio>
+    <td>
+    <audio controls preload="none" style="width: 200px"> <source src="task1_english/ipa_ee/LJ010-0210.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+    <td>
+    <audio controls preload="none" style="width: 200px"> <source src="task1_english/ipa_me/LJ010-0210.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+    <td>
+    <audio controls preload="none" style="width: 200px"> <source src="task1_english/e/LJ010-0210.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+    </td></tr>
+  <tr>
+    <td>
+    <audio controls preload="none" style="width: 200px"><source src="task1_english/cmu_ee/LJ049-0118.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+    <td>
+    <audio controls preload="none" style="width: 200px"> <source src="task1_english/cmu_me/LJ049-0118.wav" type="audio/mpeg">audio not supported</audio>
+    <td>
+    <audio controls preload="none" style="width: 200px"> <source src="task1_english/ipa_ee/LJ049-0118.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+    <td>
+    <audio controls preload="none" style="width: 200px"> <source src="task1_english/ipa_me/LJ049-0118.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+    <td>
+    <audio controls preload="none" style="width: 200px"> <source src="task1_english/e/LJ049-0118.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+    </td></tr>
+    <tr>
+    <td>
+    <audio controls preload="none" style="width: 200px"><source src="task1_english/cmu_ee/LJ021-0007.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+    <td>
+    <audio controls preload="none" style="width: 200px"> <source src="task1_english/cmu_me/LJ021-0007.wav" type="audio/mpeg">audio not supported</audio>
+    <td>
+    <audio controls preload="none" style="width: 200px"> <source src="task1_english/ipa_ee/LJ021-0007.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+    <td>
+    <audio controls preload="none" style="width: 200px"> <source src="task1_english/ipa_me/LJ021-0007.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+    <td>
+    <audio controls preload="none" style="width: 200px"> <source src="task1_english/e/LJ021-0007.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+    </td></tr>
+</table>
+<table border="1" width="100%" style="font-size:16px">
+  <tr><th bgcolor="#3cb371" height="48"> Tacotron-ARPAbet MM</th><th bgcolor="#3cb371"> Tacotron-ARPAbet EM</th>
+    <th bgcolor="#3cb371"> Tacotron-IPA MM</th><th bgcolor="#3cb371"> Tacotron-IPA EM</th><th bgcolor="#3cb371"> GT M</th></tr>
+  <tr>
+    <td>
+    <audio controls preload="none" style="width: 200px"><source src="task1_chinese/cmu_mm/000179.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+    <td>
+    <audio controls preload="none" style="width: 200px"> <source src="task1_chinese/cmu_em/000179.wav" type="audio/mpeg">audio not supported</audio>
+    <td>
+    <audio controls preload="none" style="width: 200px"> <source src="task1_chinese/ipa_mm/000179.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+    <td>
+    <audio controls preload="none" style="width: 200px"> <source src="task1_chinese/ipa_em/000179.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+    <td>
+    <audio controls preload="none" style="width: 200px"> <source src="task1_chinese/m/000179.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+    </td></tr>
+  <tr>
+    <td>
+    <audio controls preload="none" style="width: 200px"><source src="task1_chinese/cmu_mm/003558.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+    <td>
+    <audio controls preload="none" style="width: 200px"> <source src="task1_chinese/cmu_em/003558.wav" type="audio/mpeg">audio not supported</audio>
+    <td>
+    <audio controls preload="none" style="width: 200px"> <source src="task1_chinese/ipa_mm/003558.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+    <td>
+    <audio controls preload="none" style="width: 200px"> <source src="task1_chinese/ipa_em/003558.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+    <td>
+    <audio controls preload="none" style="width: 200px"> <source src="task1_chinese/m/003558.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+    </td></tr>
+    <tr>
+    <td>
+    <audio controls preload="none" style="width: 200px"><source src="task1_chinese/cmu_mm/008020.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+    <td>
+    <audio controls preload="none" style="width: 200px"> <source src="task1_chinese/cmu_em/008020.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+    <td>
+    <audio controls preload="none" style="width: 200px"> <source src="task1_chinese/ipa_mm/008020.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+    <td>
+    <audio controls preload="none" style="width: 200px"> <source src="task1_chinese/ipa_em/008020.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+    <td>
+    <audio controls preload="none" style="width: 200px"> <source src="task1_chinese/m/008020.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+    </td></tr>
+</table>
+
+Few-shot English experiments, we trained our models with full CSMSC and 20 mins LJspeech. See section 3.3.2 in our paper.
+<table border="1" width="100%" style="font-size:16px">
+  <tr><th bgcolor="#3cb371" height="48"> DurIAN-IPA-ME</th><th bgcolor="#3cb371"> DurIAN-IPA-EE</th><th bgcolor="#3cb371">GT Ljspeech</th>
+    </tr>
+    <tr>
+    <td>
+    <audio controls preload="none" style="width: 200px"><source src="fewshort/bznsyp/LJ010-0210.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+    <td>
+    <audio controls preload="none" style="width: 200px"> <source src="fewshort/ljspeech/LJ010-0210.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+      <td>
+    <audio controls preload="none" style="width: 200px"> <source src="task1_english/e/LJ010-0210.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+    </tr>
+  <tr>
+    <td>
+    <audio controls preload="none" style="width: 200px"><source src="fewshort/bznsyp/LJ049-0118.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+    <td>
+    <audio controls preload="none" style="width: 200px"> <source src="fewshort/ljspeech/LJ049-0118.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+            <td>
+    <audio controls preload="none" style="width: 200px"> <source src="task1_english/e/LJ049-0118.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+    </tr>
+    <tr>
+    <td>
+    <audio controls preload="none" style="width: 200px"><source src="fewshort/bznsyp/LJ021-0007.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+    <td>
+    <audio controls preload="none" style="width: 200px"> <source src="fewshort/ljspeech/LJ021-0007.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+            <td>
+    <audio controls preload="none" style="width: 200px"> <source src="task1_english/e/LJ021-0007.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+</tr>
+</table>
+Expert Duration Experiments. See section 3.5 in our paper.
+<table border="1" width="100%" style="font-size:16px">
+  <tr><th bgcolor="#3cb371" height="48"> DurIAN-IPA-ME</th><th bgcolor="#3cb371"> DurIAN-IPA-ME-Expert Duration</th><th bgcolor="#3cb371"> GT Ljspeech</th>
+    <th bgcolor="#3cb371" height="48"> DurIAN-IPA-EM</th><th bgcolor="#3cb371"> DurIAN-IPA-EM-Expert Duration</th><th bgcolor="#3cb371"> GT CSMSC</th>
+    </tr>
+    <tr>
+    <td>
+    <audio controls preload="none" style="width: 200px"><source src="task3_english/ipa_me/LJ010-0210.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+    <td>
+    <audio controls preload="none" style="width: 200px"> <source src="task3_english/ipa_me_expert/LJ010-0210.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+     <td>
+    <audio controls preload="none" style="width: 200px"> <source src="task3_english/e/LJ010-0210.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+      <td>
+    <audio controls preload="none" style="width: 200px"><source src="task3_chinese/ipa_em/000179.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+    <td>
+    <audio controls preload="none" style="width: 200px"> <source src="task3_chinese/ipa_em_expert/000179.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+     <td>
+    <audio controls preload="none" style="width: 200px"> <source src="task3_chinese/m/000179.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+    </tr>
+  <tr>
+    <td>
+    <audio controls preload="none" style="width: 200px"><source src="task3_english/ipa_me/LJ049-0118.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+    <td>
+    <audio controls preload="none" style="width: 200px"> <source src="task3_english/ipa_me_expert/LJ049-0118.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+    <td>
+    <audio controls preload="none" style="width: 200px"> <source src="task1_english/e/LJ049-0118.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+    <td>
+    <audio controls preload="none" style="width: 200px"><source src="task3_chinese/ipa_em/003558.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+    <td>
+    <audio controls preload="none" style="width: 200px"> <source src="task3_chinese/ipa_em_expert/003558.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+     <td>
+    <audio controls preload="none" style="width: 200px"> <source src="task3_chinese/m/003558.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+    </tr>
+    <tr>
+    <td>
+    <audio controls preload="none" style="width: 200px"><source src="task3_english/ipa_me/LJ021-0007.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+    <td>
+    <audio controls preload="none" style="width: 200px"> <source src="task3_english/ipa_me_expert/LJ021-0007.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+      <td>
+    <audio controls preload="none" style="width: 200px"> <source src="task1_english/e/LJ021-0007.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+      <td>
+    <audio controls preload="none" style="width: 200px"><source src="task3_chinese/ipa_em/008020.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+    <td>
+    <audio controls preload="none" style="width: 200px"> <source src="task3_chinese/ipa_em_expert/008020.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+     <td>
+    <audio controls preload="none" style="width: 200px"> <source src="task3_chinese/m/008020.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+</tr>
+</table>
+
+
+
+
+DurIAN-IPA EE and DurIAN-IPA MM results.
+<table border="1" width="100%" style="font-size:16px">
+  <tr><th bgcolor="#3cb371" height="48"> DurIAN-IPA EE</th><th bgcolor="#3cb371"> DurIAN-IPA MM</th>
+    <th bgcolor="#3cb371"> GT EE</th><th bgcolor="#3cb371"> GT MM </th></tr>
+  <tr>
+    <td>
+    <audio controls preload="none" style="width: 200px"><source src="ipa_si_ljspeech/LJ010-0210.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+    <td>
+    <audio controls preload="none" style="width: 200px"> <source src="ipa_bb/000179.wav" type="audio/mpeg">audio not supported</audio>
+
+    <td>
+    <audio controls preload="none" style="width: 200px"> <source src="task1_english/e/LJ010-0210.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+
+    <td>
+    <audio controls preload="none" style="width: 200px"> <source src="task1_chinese/m/000179.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+    </td></tr>
+  <tr>
+    <td>
+    <audio controls preload="none" style="width: 200px"><source src="ipa_si_ljspeech/LJ049-0118.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+    <td>
+    <audio controls preload="none" style="width: 200px"> <source src="ipa_bb/003558.wav" type="audio/mpeg">audio not supported</audio>
+    <td>
+    <audio controls preload="none" style="width: 200px"> <source src="task1_english/e/LJ049-0118.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+    <td>
+    <audio controls preload="none" style="width: 200px"> <source src="task1_chinese/m/003558.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+    </td></tr>
+    <tr>
+    <td>
+    <audio controls preload="none" style="width: 200px"><source src="ipa_si_ljspeech/LJ021-0007.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+    <td>
+    <audio controls preload="none" style="width: 200px"> <source src="ipa_bb/008020.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+    <td>
+    <audio controls preload="none" style="width: 200px"> <source src="task1_english/e/LJ021-0007.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+      <td>
+    <audio controls preload="none" style="width: 200px"> <source src="task1_chinese/m/008020.wav" type="audio/mpeg">audio not supported</audio>
+    </td>
+    </td></tr>
+</table>
+</body>
 </html>
